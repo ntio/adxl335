@@ -8,7 +8,7 @@ monitor_activo=0
 while 1:
   character=puerto_serie.readline().strip()
   MyJson= character
-  db = MySQLdb.connect("localhost","ntio","misdatos","arduino")
+  db = MySQLdb.connect("localhost","usuario","clave","arduino")
   print(character)
   if character != '\n':
       try:
