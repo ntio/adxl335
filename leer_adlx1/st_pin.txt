@@ -1,0 +1,16 @@
+ADXL335 Self Test Feature
+
+The ADXL335 Accelerometer has a self-test feature which allows you to check the functioning of the sensor in the final application.
+ADXL335 Module SelfTest Pin
+
+ST(self-test) pin on the module controls this feature.
+
+When ST pin is connected to 3.3V, an electrostatic force is exerted on the accelerometer beam internally. The resulting movement of the beam allows the user to test if the accelerometer is functional.
+
+The typical change in output is
+
+    −1.08 g (−325 mV) on the X-axis
+    +1.08 g (+325 mV) on the Y-axis
+    +1.83 g (+550 mV) on the Z-axis
+
+This ST pin can be left open-circuit or connected to GND in normal use.

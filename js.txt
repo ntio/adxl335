@@ -1,0 +1,12 @@
+los js:
+
+    <script src="../js/jquery.min.js"></script>
+	<script src="../js/Chart.min.js"></script>
+	<script src="../js/utils.js"></script>
+	<script src="../js/chartjs-plugin-zoom.js"></script>
+	<script src="../js/chartjs-plugin-streaming.js"></script>
+	los podeis encontrar aqui:
+	https://github.com/chartjs/Chart.js/releases/tag/v2.9.3
+	o aqui:
+	https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/*.*.js
+	https://www.jsdelivr.com/package/npm/*.*.js
